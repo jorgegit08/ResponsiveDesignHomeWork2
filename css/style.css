@@ -46,6 +46,7 @@ img{
    
 .grid figcaption {
     background-color: #000000;
+    border-radius: 35px;
     color: #FFFFFF;
     text-align: center;
     width: 100%;
@@ -72,6 +73,10 @@ img{
 
 @media screen and (min-width: 992px) {
     .grid figure img {
+        border-radius: 0;
+    }
+
+    .grid figcaption {
         border-radius: 0;
     }
 
